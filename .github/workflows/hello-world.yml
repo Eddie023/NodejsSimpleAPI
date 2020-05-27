@@ -1,0 +1,11 @@
+name: Hello World
+
+on: [push]
+
+
+jobs:
+        job1: 
+                runs-on: ubuntu-latest
+
+                steps:
+                        -run: echo 'Hello World'
