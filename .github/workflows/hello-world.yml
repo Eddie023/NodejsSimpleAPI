@@ -1,0 +1,12 @@
+name: Hello World
+
+on: [push, pull_requests]
+
+
+
+jobs:
+        job1: 
+                runs-on: ubuntu-latest
+
+                steps:
+                        -run: echo 'Hello World'
